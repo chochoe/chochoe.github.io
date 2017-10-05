@@ -2,12 +2,49 @@
 <html>
 <head>
 	<!-- <link rel="stylesheet" href="css/reset.css"> -->
-	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Contact Emery</title>
 </head>
 <body>
-	<h1>Emery Cho</h1>
-	<h2>Contact</h2>
+	<header class="header">
+		<div class="name">	
+			<h1>Emery Cho</h1>
+		</div>
+		<nav class="horizontal">
+			<li><a class="other" href="index.html">About</a></li>
+   		 	<li><a class="other" href="portfolio.html">Portfolio</a></li>
+    		<li><a class="other" href="contact.html">Contact</a></li>
+		</nav>
+	</header>
 	<hr>
-	<p>Name</p>
+	<div class="body">
+		<div class="contact">
+			<h2>Contact</h2>
+			<hr>
+			<form action="/action_page.php">
+				Name<br>
+				<input type="text" name="fullname" size="80">
+				<br>
+				Email<br>
+				<input type="text" name="email" size="80">
+				<br>
+				Message<br>
+				<textarea></textarea>
+				<br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		<div class="connect">
+			<h3>Connect with Me</h3>
+			<hr>
+			<a href="https://github.com/chochoe"><img class="social" src="assets/images/if_github_306201.png" alt="GitHub Profile"></a>
+			<a href="https://www.linkedin.com/in/emery-cho-7951a746/"><img class="social" src="assets/images/if_LinkedIn_345413.png" alt="LinkedIn Profile"></a>
+			<a href="https://stackoverflow.com/users/8679178/emery-cho"><img class="social " src="assets/images/Stack_Overflow-128.png" alt="Stack Overflow Profile"></a>
+		</div>
+	</div>
+	<hr class="foot_hr"> <!-- placeholder -->
+	<footer class="footer">
+		<p>&copy; Copyright 2017 Emery Cho</p>
+	</footer>
 </body>
 </html>
