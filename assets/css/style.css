@@ -20,28 +20,34 @@
 
 .body {
 	background-image: url("../images/ep_naturalwhite.png");
-	border-top: : 20px;
+	border-top: : 0px;
+	margin-left: 0px;
 }
 
 .about {
 	width: 650px;
 	background: white;
+	margin-left: 64px;
 }
 
 .contact {
 	width: 650px;
 	background: white;
 	margin-left: 40px;
+	margin-top: 40px;
 }
 
 .portfolio {
 	width: 650px;
 	background: white;
+	margin-left: 64px;
 }
 
 .connect {
 	width: 270px;
 	background: white;
+	margin-left: 64px;
+	border-bottom: 20px;
 }
 
 img {
@@ -62,14 +68,24 @@ h1 {
 	background: #4aaaa5;
 	color: white;
 	font-size: 20px;
-	padding: 20px;
-	width: 114px;
-	margin-left: 40px;
-	margin
+	padding: 17px;
+	width: 148px;
+	margin-left: 64px;
 	float: left;
 }
 
+h2 {
+	font-size: 20px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
 h2, h3 {
+	margin-left: 64px;
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -80,7 +96,10 @@ h2, h3 {
 }
 
 p {
+	margin-left: 64px;
+	width: 522px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 }
 
 a {
@@ -113,7 +132,7 @@ html {
 }
 
 textarea {
-	width: 640px;
+	width: 540px;
 }
 
 nav.horizontal li {
@@ -125,4 +144,23 @@ nav.horizontal li {
 nav.horizontal {
 	margin: 0;
 	padding: 0;
+}
+
+form {
+	padding-left: 20px;
+}
+
+.img_index {
+	width: 325px;
+	margin-left: 64px
+}
+
+.about_hr {
+	margin-left: 64px;
+	margin-right: 64px;
+}
+
+.port {
+	width: 325px;
+	margin-left: 64px;
 }
