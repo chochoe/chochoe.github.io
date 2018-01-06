@@ -1,58 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
-	<!-- <link rel="stylesheet" href="css/reset.css"> -->
-	<link rel="stylesheet" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact Emery</title>
+  <meta charset="UTF-8">
+  <title>Contact | Emery</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<header class="header">
-		<div class="row">
-			<div class="col-sm-6"><h1>Emery Cho</h1></div>
-			<div class="col-sm-1"><a class="other" href="index.html">About</a></div>
-			<div class="headerDivider1"></div>
-			<div class="col-sm-1"><a class="other" href="portfolio.html">Portfolio</a></div>
-			<div class="headerDivider2"></div>
-			<div class="col-sm-1"><a class="other" href="contact.html">Contact</a></div>
-		</div>
-	</header>
 
-	<!-- Background color not completely surrounding Contact and COnnect with Me boxes -->
-	<!-- hr tag below contact not positioned correctly, textarea also not completely formatted for height, click box background not corrected -->
-	<!-- navbar text size and separators not corrected yet, this is also a something to do on the other pages -->
-	<!-- general sizing and positioning for all pages has also yet to be complete -->
+<div class="wrapper">
 
-	<hr>
-	<div class="body">
-		<div class="contact">
-			<h2>Contact</h2>
-			<hr>
-			<form action="/action_page.php">
-				Name<br>
-				<input type="text" name="fullname" size="70">
-				<br>
-				Email<br>
-				<input type="text" name="email" size="70">
-				<br>
-				Message<br>
-				<textarea></textarea>
-				<br><br>
-				<input type="submit" value="Submit">
-			</form>
-		</div>
-		<div class="connect">
-			<h3>Connect with Me</h3>
-			<hr>
-			<a href="https://github.com/chochoe"><img class="social" src="assets/images/if_github_306201.png" alt="GitHub Profile"></a>
-			<a href="https://www.linkedin.com/in/emery-cho-7951a746/"><img class="social" src="assets/images/if_LinkedIn_345413.png" alt="LinkedIn Profile"></a>
-			<a href="https://stackoverflow.com/users/8679178/emery-cho"><img class="social " src="assets/images/Stack_Overflow-128.png" alt="Stack Overflow Profile"></a>
-		</div>
-	</div>
-	<hr class="foot_hr"> <!-- placeholder -->
-	<footer class="footer">
-		<p class="p_foot">&copy; Copyright 2017 Emery Cho</p>
-	</footer>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Emery Cho</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+	  <p>You can either leave me a message on this form below or <a href="mailto:cho.e@live.com">email me</a>.</p>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <ul>
+          <li><a href="https://github.com/chochoe"><img src="assets/images/if_github_306201.png" alt="Github Profile"></a></li>
+          <li><a href="https://www.linkedin.com/in/emery-cho/"><img src="assets/images/if_LinkedIn_345413.png" alt="LinkedIn Profile"></a></li>
+          <li><a href="https://stackoverflow.com/users/8679178/emery-cho"><img src="assets/images/Stack_Overflow-128.png" alt="Stack Overflow Profile"></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <div class="push"></div>
+</div>
+
+  <footer>
+    <div class="container">
+      &copy; Copyright 2017 Emery Cho
+    </div>
+  </footer>
 </body>
 </html>
